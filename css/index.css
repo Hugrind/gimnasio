@@ -1,0 +1,65 @@
+/* Inicio estilos del banner */
+
+.banner {
+    border: 5px red solid;
+    background-image: url('../img/gym.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    /*alineacion con flex*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    background: rgba(6, 177, 0, 0.4);
+    color: rgb(15, 15, 15);
+    font-size: 36px;
+    padding: 40px;
+    text-align: center;
+    /*transform: translate(-120px, -210px);*/
+    /* ele y y eje x*/
+}
+
+
+/* Inicio estilos del button*/
+
+.separador {
+    background: #334;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+
+/* seccion servicios*/
+
+.servicios {
+    display: flex;
+    min-height: 400px;
+}
+
+.servicios .imagen {
+    background-image: url('../img/pesa.jpg');
+    background-size: cover;
+    width: 50%;
+}
+
+.servicios .info {
+    background: rgb(0, 67, 105);
+    color: #fff;
+    padding: 50px 50px;
+    width: 50%;
+}
+
+.servicios .info h2 {
+    font-size: 32px;
+    margin: 0 0 30px 0;
+}
+
+.servicios .info ul li {
+    font-size: 25px;
+    margin: 0 0 20px 0;
+}
